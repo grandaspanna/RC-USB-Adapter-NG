@@ -1,39 +1,91 @@
-Setting up the USB RC Receiver Adapter on Windows 10.
-=====================================================
+The Phat Dad Racing RC Receiver USB Adapter has been designed from the
+ground up to be a high performance and high precision device for
+contemporary computing platforms. It allows you to use standard RC
+equipment, that is, your transmitter and receiver to control PC
+applications. Essentially, it emulates a USB joystick that you control
+with your RC transmitter. In addition to helping your RC enjoyment
+extend into all times and weather conditions, it gives you that extra
+time with the gear you use at the track or at the field – more time
+means honing your skills. Arcade games, simulators and even data loggers
+are some of the ways you can use it. Importantly, its hardware is ready
+for full 4-channel action and the software is completely updatable with
+no special software required to install updates or configurations. As
+standard, it ships in 3-channel mode: two full-range proportional axes
+and a button mapped to your radio’s channel 3. For RC cars & trucks,
+this is steering, throttle and a button you can map to functions in your
+favourite software.
 
-![](media/image1.jpeg){width="1.375in"
-height="1.031327646544182in"}Connect the adapter to you receiver. The
-plug with 3 wires is the steering channel. This is typically channel 1,
-but may vary with your equipment. The 3-socket plug with one wire goes
-into your throttle channel, typically 2, but again may vary with your
-radio gear. The one-wire plugs (if fitted) go into channels 3 & 4.
+As a modern device, it features a USB-C connector and full speed USB
+communications speeds. A connector you can’t plug in the wrong way is
+something everyone in RC has wished for! It also features a special
+design for precise operation. Leveraging modern electronics, 16-bits of
+data per channel and better than 1/10^th^ of a microsecond precision for
+all four channels make this adapter unique.
 
-Use a “micro USB” cable to connect the adapter to your computer.
+Finally, it’s plug-and-play with modern operating systems with no custom
+drivers required.
 
-  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  Press the Windows “start” button and type “set up usb game” and the following item should appear:                                                                                                                                                            ![](media/image2.png){width="3.533333333333333in" height="2.884027777777778in"}
-  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ -----------------------------------------------------------------------------------
-  Select that one and it will take you to this screen:                                                                                                                                                                                                         ![](media/image3.png){width="1.7333333333333334in" height="1.4in"}
+Before you start
+----------------
 
-  Press the “Properties” button and the following window appears:                                                                                                                                                                                              ![](media/image4.png){width="1.8083333333333333in" height="1.8798490813648294in"}
+-   It is recommended that your receiver has been bound to your
+    transmitter. Refer to the instructions for your equipment on how to
+    do this.
 
-  Choose the “Settings” tab in the upper left:                                                                                                                                                                                                                 ![](media/image5.png){width="1.825in" height="1.875in"}
+-   It is recommended that, where your radio set offers multiple model
+    settings, you create or choose a model specific to the adapter. This
+    allows settings to be tailored to how you use it.
 
-  And now press the “Calibrate…” button.                                                                                                                                                                                                                       ![](media/image6.png){width="2.2666666666666666in" height="1.6083333333333334in"}
+-   It is recommended that you set the steering and throttle EPA points
+    to 100% (or equivalent) before you calibrate
 
-  Press “Next&gt;”                                                                                                                                                                                                                                             ![](media/image7.png){width="2.308333333333333in" height="1.7166666666666666in"}
-                                                                                                                                                                                                                                                               
-  Make sure your radio is on, the receiver is showing connected and leave throttle and steering at neutral.                                                                                                                                                    
+-   Where you plan to use channel 3 as a virtual button on the adapter,
+    make sure that it’s “neutral” position is close to the midpoint of
+    the range. Different radios have different starting points for the
+    channel 3 function.
 
-  Press “Next&gt;”                                                                                                                                                                                                                                             ![](media/image8.png){width="2.308333333333333in" height="1.675in"}
+Plug the adapter into the RC receiver
+-------------------------------------
 
-  Now, move the steering and throttle the full range of travel in all directions a few times. Eventually, when left in their neutral positions, the cross hair will be relatively close to the centre of the square. It may bobble slightly, this is normal.   ![](media/image9.png){width="2.2666666666666666in" height="1.7in"}
-                                                                                                                                                                                                                                                               
-  Press “Next&gt;” a few times until you get to this view. The additional dialog windows can be ignored since we are only setting up 2 channels.                                                                                                               
+-   For basic operation (2 channel – steering and throttle/brake), plug
+    the 3-wire plug into the channel 1 (steering) port on the receiver.
+    Plug the first single wire (black) into channel 2 (throttle), making
+    sure to plug it into the signal port.
 
-  The controller should now be ready to use in any games that support a two channel joystick.                                                                                                                                                                  ![](media/image4.png){width="1.9800273403324584in" height="2.058333333333333in"}
-                                                                                                                                                                                                                                                               
-  Channels 3 and 4 on your radio (if supported) will activate the two buttons with 20% or more of travel from neutral(middle) position.                                                                                                                        
-  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-   Where the third channel is to be used, plug the next single wire
+    (red) into the channel 3 port.
 
+-   There is no harm to plugging in unused wires, as long as they
+    connect to the signal pins on the receiver. Likewise, there is no
+    issue in leaving unused wires unplugged.
 
+Windows 10
+----------
+
+-   Turn on transmitter, then plug adapter into PC. The receiver
+    normally has a light to indicate it is bound to the transmitter –
+    this should now be on.
+
+-   The first time you plug the adapter into the USB port, Windows
+    should recognise it automatically and display a message that it is
+    setting up the new device.
+
+-   Before first use, it’s important to calibrate the range of movement:
+
+    -   Click your windows start button and start typing "usb game
+        controller" as soon as you see the applet appear, click it
+
+    -   The adapter will appear in the list, choose it and click
+        "properties"
+
+    -   Choose the "settings" tab and press "calibrate"
+
+    -   Follow the instructions to set the min/max ranges for each
+        channel. If you’re using it, channel 3 should make the button 1
+        light up when you activate it
+
+-   Calibration won’t be required for subsequent uses, unless you use a
+    different receiver or transmitter profile.
+
+Once you're calibrated, you're good to launch VRC Pro, go to
+"options-&gt;control options" and check that it reads ok.
