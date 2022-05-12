@@ -5,4 +5,4 @@ This repository contains information about the Phat Dad Racing RC USB Adapter (s
 
 Information is mostly a stub right now, but will hopefully grow over time.
 
-Setup instructions: 
+Setup instructions: https://github.com/grandaspanna/RC-USB-Adapter-NG/blob/main/inst.md
