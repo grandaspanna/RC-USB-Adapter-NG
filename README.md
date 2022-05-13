@@ -1,4 +1,4 @@
-# RC-USB-Adapter-NG
+# Phat Dad Racing RC USB Adapter
 High performance USB adapter for RC receivers
 
 This repository contains information about the Phat Dad Racing RC USB Adapter (see: https://www.tindie.com/products/phatdadracing/rc-usb-adapter/)
